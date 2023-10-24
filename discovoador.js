@@ -25,11 +25,17 @@ class Discovoador {
 class Vaca {
     nome
     cor
+
+    constructor(){
+        this.nome = 'Nome padrão';
+        this.cor = 'Cor padrão'
+    }
 }
 
 let disco1 = new Discovoador();
 let vaca1 = new Vaca();
 let vaca2 = new Vaca();
+let vaca3 = new Vaca();
 
 vaca1.nome = 'Berenice';
 vaca1.cor = 'Branca';
@@ -37,8 +43,7 @@ vaca1.cor = 'Branca';
 vaca2.nome = 'Joelma';
 vaca2.cor = 'Amarela';
 
-/* console.table(disco1);
-console.table(vaca1); */
+
 
 disco1.abduzir(vaca1);
 disco1.abduzir(vaca2);
